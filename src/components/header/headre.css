@@ -58,9 +58,9 @@ header{
 }
 /* ============== GENERAL MEDIUM QUERY ============== */
 @media screen and (max-width:1024px) {
-    header{
+    /* header{
         height: 68vh;
-    }
+    } */
 }
 /* ============== GENERAL SMALL QUERY ============== */
 @media screen and (max-width:600px) {
