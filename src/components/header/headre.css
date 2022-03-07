@@ -1,13 +1,21 @@
 header{
     width: 100%;
     height: 100vh;
-    padding-top: 7rem;
+    
     overflow: hidden;
 }
 .header_container{
     text-align: center;
     height: 100%;
     position: relative;
+}
+.MyContainer{
+    padding-top: 2rem;
+    width: 80%;
+    margin: 0 auto;
+}
+.MyContainer .languages a{
+   margin: 0 0.5rem;
 }
 /* ======== CTA ========= */
 .cta{
@@ -32,6 +40,9 @@ header{
     width: 1px;
     height: 2rem;
     background: var(--color-primary);
+}
+.header_container .hh{
+    padding-top: 15px;
 }
 /* ======== ME ========= */
  .me{
@@ -65,11 +76,20 @@ header{
 /* ============== GENERAL SMALL QUERY ============== */
 @media screen and (max-width:600px) {
     header{
-        height:80vh;
+        height:100vh;
         padding-top: 3rem;
     }
     .header_socials, .scroll_down{
         display: none;
+    }
+    .MyContainer .languages{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .MyContainer{
+        padding-top: 0px;
     }
 }
 
