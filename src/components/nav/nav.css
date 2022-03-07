@@ -28,3 +28,23 @@ nav a.active{
     background: var(--color-bg);
     color: var(--color-white);
 }
+
+/* ============== GENERAL SMALL QUERY ============== */
+@media screen and (max-width:600px){
+    nav{
+        gap: 1.8rem;
+    }
+    nav a{
+        
+        padding: 0.9rem;
+        
+    }
+}
+/* ============== GENERAL SMALL QUERY ============== */
+@media screen and (max-width:360px){
+    nav a{
+        
+        padding: 0.5rem;
+        
+    }
+}

@@ -86,7 +86,7 @@
     }
     .about_cards{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr ;
         gap: 1rem;
     
     }
@@ -96,5 +96,16 @@
     .about_content p{
         margin: 1.5rem 0  ;
         
+    }
+    .about_icon{
+        
+        font-size: 3rem;
+       
+    }
+    .about_card h5{
+        font-size: 2rem;
+    }
+    .about_card small{
+        font-size: 1.7rem;
     }
 }

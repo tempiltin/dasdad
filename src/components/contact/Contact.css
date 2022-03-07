@@ -4,7 +4,11 @@
     grid-template-columns: 30% 58%;
     gap: 12%;
 }
-.contact_options{
+.mycontainer{
+    width: 90%;
+    margin: 0 auto !important;
+}
+.contact_options .mycontainer{
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
@@ -31,12 +35,8 @@
     font-size: 0.8rem;
 }
 /* ============ FORM ============ */
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-}
-input , textarea{
+
+form .mycontainer1 input , textarea{
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
@@ -44,6 +44,13 @@ input , textarea{
     border: 2px solid var(--color-primary-variant);
     resize: none;
     color: var(--color-white);
+}
+.mycontainer1{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 90%;
+    margin: 0 auto !important;
 }
 /* ============== GENERAL MEDIUM QUERY ============== */
 @media screen and (max-width:1024px) {
@@ -57,5 +64,8 @@ input , textarea{
     .container.contact_container{
       width: var(--container-width-sm);
 
+    }
+    form button{
+        margin: auto;
     }
 }

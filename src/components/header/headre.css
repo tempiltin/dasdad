@@ -65,9 +65,18 @@ header{
 /* ============== GENERAL SMALL QUERY ============== */
 @media screen and (max-width:600px) {
     header{
-        height:100vh;
+        height:80vh;
+        padding-top: 3rem;
     }
     .header_socials, .scroll_down{
         display: none;
+    }
+}
+
+/* ============== GENERAL SMALL QUERY ============== */
+@media screen and (max-width:360px){
+    header{
+        height:140vh;
+        padding-top: 3rem;
     }
 }
